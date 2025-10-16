@@ -1,7 +1,7 @@
 CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o: \
- /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/MainWindow.cpp \
+ /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/MainWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/MainWindow.h \
+ /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -337,20 +337,29 @@ CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
- /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.h \
+ /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringList \

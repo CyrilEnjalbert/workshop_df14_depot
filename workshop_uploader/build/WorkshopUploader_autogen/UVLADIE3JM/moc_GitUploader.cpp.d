@@ -1,5 +1,5 @@
-/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/WorkshopUploader_autogen/UVLADIE3JM/moc_GitUploader.cpp: /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.h \
-  /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/WorkshopUploader_autogen/moc_predefs.h \
+/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/WorkshopUploader_autogen/UVLADIE3JM/moc_GitUploader.cpp: /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.h \
+  /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/WorkshopUploader_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

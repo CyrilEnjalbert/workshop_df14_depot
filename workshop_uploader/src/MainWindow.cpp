@@ -1,3 +1,5 @@
+// src/MainWindow.cpp
+
 #include "MainWindow.h"
 #include "GitUploader.h"      // ajoute ceci
 #include <QMimeData>
@@ -21,8 +23,21 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     central->setLayout(layout);
     setCentralWidget(central);
 
-    // ---- ajoute cette ligne ici ----
+    usernameEdit = new QLineEdit(this);
+    usernameEdit->setPlaceholderText("GitHub Username");
+    usernameEdit->setGeometry(20, 20, 200, 25);
+
+    tokenEdit = new QLineEdit(this);
+    tokenEdit->setPlaceholderText("Personal Access Token");
+    tokenEdit->setEchoMode(QLineEdit::Password);
+    tokenEdit->setGeometry(20, 60, 200, 25);
+
+    pushButton = new QPushButton("Push Files", this);
+    pushButton->setGeometry(20, 100, 200, 30);
+    connect(pushButton, &QPushButton::clicked, this, &MainWindow::onPushClicked);
+
     uploader = new GitUploader(this);
+
 }
 
 void MainWindow::dragEnterEvent(QDragEnterEvent *event) {
@@ -35,8 +50,26 @@ void MainWindow::dropEvent(QDropEvent *event) {
     for (auto &url : event->mimeData()->urls())
         files << url.toLocalFile();
 
-    bool ok = uploader->pushFiles(files);
+    QString user = usernameEdit->text();
+    QString token = tokenEdit->text();
+
+    bool ok = uploader->pushFiles(files, user, token);
 
     QString message = ok ? "Push GitHub réussi" : "Erreur push GitHub";
     QMessageBox::information(this, "Résultat", message);
+}
+
+void MainWindow::onPushClicked() {
+    QString user = usernameEdit->text();
+    QString token = tokenEdit->text();
+
+    QStringList files; // Fill this with the files you want to push
+    // Example: files << "/home/c-enjalbert/Téléchargements/file.pdf";
+
+    bool ok = uploader->pushFiles(files, user, token);
+    if (ok) {
+        qDebug() << "Push succeeded";
+    } else {
+        qDebug() << "Push failed";
+    }
 }

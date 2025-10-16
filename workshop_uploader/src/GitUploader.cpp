@@ -4,16 +4,38 @@
 #include <QFileInfo>
 #include <QDir>
 #include <QFile>
+#include <utility>
+
+// Static function for libgit2 credential callback
+static int cred_callback(
+    git_credential **out,
+    const char *url,
+    const char *username_from_url,
+    unsigned int allowed_types,
+    void *payload)
+{
+    Q_UNUSED(url);
+    Q_UNUSED(username_from_url);
+    Q_UNUSED(allowed_types);
+
+    auto *creds = static_cast<std::pair<QString, QString> *>(payload);
+    const QString &username = creds->first;
+    const QString &token = creds->second;
+
+    return git_credential_userpass_plaintext_new(out,
+        username.toUtf8().constData(),
+        token.toUtf8().constData());
+}
 
 GitUploader::GitUploader(QObject *parent) : QObject(parent) {
     git_libgit2_init();
 }
 
-bool GitUploader::pushFiles(const QStringList &paths) {
+bool GitUploader::pushFiles(const QStringList &paths, const QString &username, const QString &token) {
     git_repository *repo = nullptr;
 
     // Path to your repo root
-    QString repoPath = "/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE";
+    QString repoPath = "/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot";
 
     QString docsPath = repoPath + "/docs";
     QDir().mkpath(docsPath);
@@ -139,7 +161,6 @@ bool GitUploader::pushFiles(const QStringList &paths) {
     if (parentCommit) git_commit_free(parentCommit);
     if (headRef) git_reference_free(headRef);
 
-
     // 8. Push to origin
     git_remote *remote = nullptr;
     if (git_remote_lookup(&remote, repo, "origin") != 0) {
@@ -151,23 +172,37 @@ bool GitUploader::pushFiles(const QStringList &paths) {
         return false;
     }
 
-    if (git_remote_push(remote, nullptr, nullptr) != 0) {
-        qDebug() << "Push failed";
+    // Prepare refspecs (push HEAD)
+    const char *refspec = "refs/heads/main";
+    git_strarray refspecs = { (char**)&refspec, 1 };
+
+    // Setup credentials
+    std::pair<QString, QString> creds(username, token);
+
+    git_remote_callbacks callbacks = GIT_REMOTE_CALLBACKS_INIT;
+    callbacks.credentials = cred_callback; // Use the static member function
+    callbacks.payload = &creds;
+
+    // Connect and push
+    if (git_remote_connect(remote, GIT_DIRECTION_PUSH, &callbacks, nullptr, nullptr) != 0) {
+        qDebug() << "Cannot connect to remote origin";
         git_remote_free(remote);
-        git_signature_free(sig);
-        git_tree_free(tree);
-        git_index_free(index);
         git_repository_free(repo);
         return false;
     }
 
-    // 9. Cleanup
-    git_remote_free(remote);
-    git_signature_free(sig);
-    git_tree_free(tree);
-    git_index_free(index);
-    git_repository_free(repo);
+    if (git_remote_push(remote, &refspecs, nullptr) != 0) {
+        qDebug() << "Push failed (authentication or permissions)";
+        git_remote_free(remote);
+        git_repository_free(repo);
+        return false;
+    }
 
     qDebug() << "Push successful";
+    git_remote_free(remote);
+    git_repository_free(repo);
     return true;
 }
+
+
+

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader
+CMAKE_SOURCE_DIR = /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build
+CMAKE_BINARY_DIR = /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/WorkshopUploader.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/WorkshopUploader.dir/flags.make
 CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o: CMakeFiles/WorkshopUploader.dir/flags.make
 CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o: WorkshopUploader_autogen/mocs_compilation.cpp
 CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o: CMakeFiles/WorkshopUploader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o -MF CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o -c /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/WorkshopUploader_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o -MF CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.o -c /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/WorkshopUploader_autogen/mocs_compilation.cpp
 
 CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/WorkshopUploader_autogen/mocs_compilation.cpp > CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/WorkshopUploader_autogen/mocs_compilation.cpp > CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/WorkshopUploader_autogen/mocs_compilation.cpp -o CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/WorkshopUploader_autogen/mocs_compilation.cpp -o CMakeFiles/WorkshopUploader.dir/WorkshopUploader_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/WorkshopUploader.dir/src/main.cpp.o: CMakeFiles/WorkshopUploader.dir/flags.make
-CMakeFiles/WorkshopUploader.dir/src/main.cpp.o: /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/main.cpp
+CMakeFiles/WorkshopUploader.dir/src/main.cpp.o: /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/main.cpp
 CMakeFiles/WorkshopUploader.dir/src/main.cpp.o: CMakeFiles/WorkshopUploader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WorkshopUploader.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WorkshopUploader.dir/src/main.cpp.o -MF CMakeFiles/WorkshopUploader.dir/src/main.cpp.o.d -o CMakeFiles/WorkshopUploader.dir/src/main.cpp.o -c /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WorkshopUploader.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WorkshopUploader.dir/src/main.cpp.o -MF CMakeFiles/WorkshopUploader.dir/src/main.cpp.o.d -o CMakeFiles/WorkshopUploader.dir/src/main.cpp.o -c /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/main.cpp
 
 CMakeFiles/WorkshopUploader.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WorkshopUploader.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/main.cpp > CMakeFiles/WorkshopUploader.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/main.cpp > CMakeFiles/WorkshopUploader.dir/src/main.cpp.i
 
 CMakeFiles/WorkshopUploader.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WorkshopUploader.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/main.cpp -o CMakeFiles/WorkshopUploader.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/main.cpp -o CMakeFiles/WorkshopUploader.dir/src/main.cpp.s
 
 CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o: CMakeFiles/WorkshopUploader.dir/flags.make
-CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o: /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/MainWindow.cpp
+CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o: /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/MainWindow.cpp
 CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o: CMakeFiles/WorkshopUploader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o -MF CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o.d -o CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o -c /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o -MF CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o.d -o CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.o -c /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/MainWindow.cpp
 
 CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/MainWindow.cpp > CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/MainWindow.cpp > CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.i
 
 CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/MainWindow.cpp -o CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/MainWindow.cpp -o CMakeFiles/WorkshopUploader.dir/src/MainWindow.cpp.s
 
 CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o: CMakeFiles/WorkshopUploader.dir/flags.make
-CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o: /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.cpp
+CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o: /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.cpp
 CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o: CMakeFiles/WorkshopUploader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o -MF CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o.d -o CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o -c /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o -MF CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o.d -o CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o -c /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.cpp
 
 CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.cpp > CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.cpp > CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.i
 
 CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.cpp -o CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.cpp -o CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.s
 
 # Object files for target WorkshopUploader
 WorkshopUploader_OBJECTS = \
@@ -146,7 +146,7 @@ WorkshopUploader: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 WorkshopUploader: /usr/lib/x86_64-linux-gnu/libGLX.so
 WorkshopUploader: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 WorkshopUploader: CMakeFiles/WorkshopUploader.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable WorkshopUploader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable WorkshopUploader"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WorkshopUploader.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/WorkshopUploader.dir/clean:
 .PHONY : CMakeFiles/WorkshopUploader.dir/clean
 
 CMakeFiles/WorkshopUploader.dir/depend:
-	cd /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/CMakeFiles/WorkshopUploader.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/CMakeFiles/WorkshopUploader.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/WorkshopUploader.dir/depend
 

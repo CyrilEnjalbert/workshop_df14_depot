@@ -1,7 +1,7 @@
 CMakeFiles/WorkshopUploader.dir/src/GitUploader.cpp.o: \
- /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.cpp \
+ /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.cpp \
  /usr/include/stdc-predef.h \
- /home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.h \
+ /home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \

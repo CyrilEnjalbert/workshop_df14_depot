@@ -1,13 +1,13 @@
 WorkshopUploader_autogen/timestamp: \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/CMakeLists.txt \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/build/WorkshopUploader_autogen/moc_predefs.h \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.cpp \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/GitUploader.h \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/MainWindow.cpp \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/MainWindow.h \
-	/home/c-enjalbert/Documents/EPSI/WORKSHOP/Workshop-Poudlard-2025-M2-g4/Defi14-LA-BOITE-MAGIQUE-DE-SERVERUS-ROGUE/workshop_uploader/src/main.cpp \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/CMakeLists.txt \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/build/WorkshopUploader_autogen/moc_predefs.h \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.cpp \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/GitUploader.h \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/MainWindow.cpp \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/MainWindow.h \
+	/home/c-enjalbert/Documents/EPSI/WORKSHOP/workshop_df14_depot/workshop_uploader/src/main.cpp \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
@@ -391,6 +391,7 @@ WorkshopUploader_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
@@ -398,22 +399,30 @@ WorkshopUploader_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLineEdit \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayoutitem.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlineedit.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
