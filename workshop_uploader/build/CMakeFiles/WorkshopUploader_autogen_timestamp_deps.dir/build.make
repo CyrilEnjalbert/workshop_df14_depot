@@ -66,8 +66,8 @@ include CMakeFiles/WorkshopUploader_autogen_timestamp_deps.dir/compiler_depend.m
 # Include the progress variables for this target.
 include CMakeFiles/WorkshopUploader_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/WorkshopUploader_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/WorkshopUploader_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
+CMakeFiles/WorkshopUploader_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 
 WorkshopUploader_autogen_timestamp_deps: CMakeFiles/WorkshopUploader_autogen_timestamp_deps
 WorkshopUploader_autogen_timestamp_deps: CMakeFiles/WorkshopUploader_autogen_timestamp_deps.dir/build.make
