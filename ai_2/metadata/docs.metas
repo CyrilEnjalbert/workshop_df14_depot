@@ -1,0 +1,154 @@
+{
+  "es/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Inicio",
+    "weight": -10,
+    "path": "es/index.md"
+  },
+  "en/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Home",
+    "weight": -10,
+    "path": "en/index.md"
+  },
+  "fr/quickstart.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Démarrage rapide",
+    "weight": 1,
+    "path": "fr/quickstart.md"
+  },
+  "fr/changelog.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "weight": 999,
+    "headless": false,
+    "icon": "material/rocket-launch-outline",
+    "path": "fr/changelog.md"
+  },
+  "fr/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Acceuil",
+    "weight": -10,
+    "path": "fr/index.md"
+  },
+  "fr/about.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "A propos",
+    "weight": 1000,
+    "path": "fr/about.md"
+  },
+  "fr/passationApp/index.md": {
+    "tags": "-appGestion --familyPoovme --roleSupervisor",
+    "title": "Gestion des examens",
+    "weight": 300,
+    "icon": "material/hexagon-slice-1",
+    "path": "fr/passationApp/index.md"
+  },
+  "fr/plateforme/index.md": {
+    "tags": "-appGestion --familyPoovme --roleSupervisor",
+    "title": "Introduction",
+    "weight": 200,
+    "icon": "material/file-document-edit-outline",
+    "path": "fr/plateforme/index.md"
+  },
+  "fr/plateforme/Gestion des sujets/index.md": {
+    "tags": "-appGestion --familyPoovme --roleSupervisor",
+    "title": "Gestion des sujets",
+    "weight": 200,
+    "icon": "material/file-document-edit-outline",
+    "path": "fr/plateforme/Gestion des sujets/index.md"
+  },
+  "fr/plateforme/Gestion des utilisateurs/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Guide utilisateur",
+    "weight": 2,
+    "icon": "material/group",
+    "subtitle": "Les différents rôles",
+    "path": "fr/plateforme/Gestion des utilisateurs/index.md"
+  },
+  "fr/plateforme/navigation/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Navigation",
+    "weight": 3,
+    "path": "fr/plateforme/navigation/index.md"
+  },
+  "fr/plateforme/Connexion/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Connexion",
+    "weight": 3,
+    "path": "fr/plateforme/Connexion/index.md"
+  },
+  "fr/plateforme/Gestion des épreuves/index.md": {
+    "tags": "-appGestion --familyPoovme --roleSupervisor",
+    "title": "Gestion des épreuves",
+    "weight": 200,
+    "icon": "material/file-document-edit-outline",
+    "path": "fr/plateforme/Gestion des épreuves/index.md"
+  },
+  "fr/plateforme/configuration/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Informations",
+    "weight": 3,
+    "path": "fr/plateforme/configuration/index.md"
+  },
+  "fr/plateforme/configuration/licence/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Informations",
+    "weight": 3,
+    "path": "fr/plateforme/configuration/licence/index.md"
+  },
+  "fr/plateforme/configuration/promotions/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Promotions",
+    "weight": 3,
+    "path": "fr/plateforme/configuration/promotions/index.md"
+  },
+  "fr/plateforme/configuration/session/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Sessions",
+    "weight": 3,
+    "path": "fr/plateforme/configuration/session/index.md"
+  },
+  "fr/plateforme/configuration/catégories/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Catégories",
+    "weight": 3,
+    "path": "fr/plateforme/configuration/catégories/index.md"
+  },
+  "fr/plateforme/configuration/sécurité/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Sécurité",
+    "weight": 3,
+    "path": "fr/plateforme/configuration/sécurité/index.md"
+  },
+  "fr/plateforme/configuration/information/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Informations",
+    "weight": 3,
+    "path": "fr/plateforme/configuration/information/index.md"
+  },
+  "fr/plateforme/mon compte/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Mon compte",
+    "weight": 3,
+    "path": "fr/plateforme/mon compte/index.md"
+  },
+  "fr/plateforme/Gestion des candidats/index.md": {
+    "tags": "-appGestion --familyPoovme --roleAdmin --roleManager",
+    "title": "Gestion des candidats",
+    "weight": 100,
+    "icon": "material/school",
+    "status": "new",
+    "path": "fr/plateforme/Gestion des candidats/index.md"
+  },
+  "fr/plateforme/Gestion des candidats/tier-temps.md": {
+    "tags": "-appGestion --familyPoovme --roleAdmin --roleManager",
+    "title": "Tier temps",
+    "path": "fr/plateforme/Gestion des candidats/tier-temps.md"
+  },
+  "fr/plateforme/tableau de bord/index.md": {
+    "tags": "-appGestion --familyPoovme --roleUser",
+    "title": "Navigation",
+    "weight": 3,
+    "path": "fr/plateforme/tableau de bord/index.md"
+  }
+}
